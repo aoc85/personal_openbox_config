@@ -26,7 +26,7 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 #install openbox, feh
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install openbox feh vim code google-chrome-stable opera-stable tint2 -y
+sudo apt-get install openbox feh vim code google-chrome-stable opera-stable tint2 terminator -y
 
 #create autostartfile for openbox
 echo "#tint2 autostart
