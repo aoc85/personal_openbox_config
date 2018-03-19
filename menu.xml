@@ -56,9 +56,23 @@
     <action name="Restart" />
   </item>
   <separator />
-  <item label="Exit">
-    <action name="Exit" />
-  </item>
+  <menu id="power" label="Desligar">
+    <item label="Desligar">
+      <action name="Desligar">
+        <execute>shutdown 0<execute>
+      </action>
+    <item/>  
+    <item label="Reiniciar">
+      <action name="Reiniciar">
+        <execute>reboot<execute>
+      </action>
+    <item/>
+ 
+    <item label="Exit">
+      <action name="Exit" />
+    </item>
+ 
+  </menu>
 </menu>
 
 </openbox_menu>
