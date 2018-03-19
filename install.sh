@@ -32,7 +32,9 @@ sudo apt-get install openbox feh vim code google-chrome-stable opera-stable tint
 echo "#tint2 autostart
 tint2 &
 #feh autostart
-feh &" > ~/.config/openbox/autostart.sh
+feh &
+feh --randomize --bg-fill ~/Wallpapers/*
+" > ~/.config/openbox/autostart.sh
 
 #download some wallpapers
 mkdir ~/Wallpapers && cd ~/Wallpapers
@@ -47,11 +49,13 @@ curl -O http://www.freejupiter.com/wp-content/uploads/2014/03/Marvel-iPhone-Wall
 curl -O https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxLPPbWd0BOFeny1KilSA8nFTuZFo_TLoeRX_p7Av7BiU8NDD4Q
 curl -O https://forum4d.com/wp-content/uploads/data/2018/1/21/Comics-deadpool-captain-america-marvel-wallpaper-gallery-PIC-FWP6004641.jpg
 
-#set random wallpapers
-feh --randomize --bg-fill ~/Wallpapers/*
+#download menu.xml and rc.xml from github
+curl -O https://github.com/aoc85/personal_openbox_config/blob/master/menu.xml > ~/.config/openbox/menu.xml
+curl -O https://github.com/aoc85/personal_openbox_config/blob/master/rc.xml > ~/.config/openbox/rc.xml
+
 
 #remove unused files
-sudo apt-get autoremove
-sudo apt-get autoclean
+sudo apt-get autoremove -y
+sudo apt-get autoclean -y
 
-
+echo "Installation finished"
