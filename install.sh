@@ -48,7 +48,10 @@ curl -O https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxLPPbWd0BOFeny1K
 curl -O https://forum4d.com/wp-content/uploads/data/2018/1/21/Comics-deadpool-captain-america-marvel-wallpaper-gallery-PIC-FWP6004641.jpg
 
 #set random wallpapers
-feh --randomize --bg-fill ~/.wallpaper/*
+feh --randomize --bg-fill ~/Wallpapers/*
 
+#remove unused files
+sudo apt-get autoremove
+sudo apt-get autoclean
 
 
