@@ -28,6 +28,9 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install openbox feh vim code google-chrome-stable opera-stable tint2 terminator -y
 
+#create config folder and files
+mkdir -p ~/.config/openbox
+
 #create autostartfile for openbox
 echo "#tint2 autostart
 tint2 &
