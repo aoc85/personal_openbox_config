@@ -55,8 +55,8 @@ curl -O http://www.freejupiter.com/wp-content/uploads/2014/03/Marvel-iPhone-Wall
 curl -O https://forum4d.com/wp-content/uploads/data/2018/1/21/Comics-deadpool-captain-america-marvel-wallpaper-gallery-PIC-FWP6004641.jpg
 
 #download menu.xml and rc.xml from github
-curl -O https://raw.githubusercontent.com/aoc85/personal_openbox_config/master/menu.xml > ~/.config/openbox/menu.xml
-curl -O https://raw.githubusercontent.com/aoc85/personal_openbox_config/master/rc.xml > ~/.config/openbox/rc.xml
+curl https://raw.githubusercontent.com/aoc85/personal_openbox_config/master/menu.xml > ~/.config/openbox/menu.xml
+curl https://raw.githubusercontent.com/aoc85/personal_openbox_config/master/rc.xml > ~/.config/openbox/rc.xml
 
 
 #remove unused files
