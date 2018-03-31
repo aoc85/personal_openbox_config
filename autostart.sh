@@ -3,4 +3,7 @@ tint2 &
 #feh autostart
 feh &
 feh --randomize --bg-fill ~/Wallpapers/*
+#pnmixer
+pnmixer &
+
 
