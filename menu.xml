@@ -32,6 +32,18 @@
       </action>
     </item>
   </menu>
+  <menu id="IDEs" label="IDEs">
+    <item label="Eclipse Oxygen">
+      <action name="Execute">
+        <execute>eclipse</execute>
+      </action>
+    </item>
+    <item label="Anypoint Studio">
+      <action name="Execute">
+        <execute>Anypoint</execute>
+      </action>
+    </item>
+  </menu>
  
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="/Debian" />
