@@ -25,7 +25,7 @@ curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microso
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
-#install openbox, feh
+#install openbox, feh, vim, vscode, chrome, opera, tin2, terminator, pnmixer
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install openbox feh vim code google-chrome-stable opera-stable tint2 terminator pnmixer -y
