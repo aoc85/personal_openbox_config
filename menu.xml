@@ -89,11 +89,15 @@
     </item>
     <item label="Database">
       <action name="Execute">
-        <execute>libreoffice --database</execute>
+        <execute>libreoffice --base</execute>
       </action>
     </item>
-
-  </menu>
+    <item label="Math">
+      <action name="Execute">
+        <execute>libreoffice --math</execute>
+      </action>
+    </item> 
+   </menu>
 
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="/Debian" />
