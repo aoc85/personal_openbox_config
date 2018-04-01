@@ -44,7 +44,57 @@
       </action>
     </item>
   </menu>
- 
+  <menu id="System Tools" label="System Tools">
+    <item label="Disks">
+      <action name="Execute">
+        <execute>gnome-disks</execute>
+      </action>
+    </item>
+    <item label="Meld">
+      <action name="Execute">
+        <execute>meld</execute>
+      </action>
+    </item>
+   <item label="File Explorer">
+      <action name="Execute">
+        <execute>nautilus</execute>
+      </action>
+    </item>
+   <item label="Transmission">
+      <action name="Execute">
+        <execute>transmission-gtk</execute>
+      </action>
+    </item>
+  </menu>
+  <menu id="LibreOffice" label="LibreOffice">
+    <item label="Calc">
+      <action name="Execute">
+        <execute>libreoffice --calc</execute>
+      </action>
+    </item>
+    <item label="Writer">
+      <action name="Execute">
+        <execute>libreoffice --writer</execute>
+      </action>
+    </item>
+    <item label="Draw">
+      <action name="Execute">
+        <execute>libreoffice --draw</execute>
+      </action>
+    </item>
+    <item label="Impress">
+      <action name="Execute">
+        <execute>libreoffice --impress</execute>
+      </action>
+    </item>
+    <item label="Database">
+      <action name="Execute">
+        <execute>libreoffice --database</execute>
+      </action>
+    </item>
+
+  </menu>
+
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="/Debian" />
   <separator />
