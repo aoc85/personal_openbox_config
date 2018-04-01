@@ -15,6 +15,7 @@
   <item label="VS Code">
     <action name="Execute"><execute>code</execute></action>
   </item>
+  <separator />
   <menu id="Web browsers" label="Browsers">
     <item label="Chrome">
       <action name="Execute">
@@ -60,6 +61,11 @@
         <execute>nautilus</execute>
       </action>
     </item>
+   <item label="Time Doctor Pro">
+      <action name="Execute">
+	<execute>timedoctorpro</execute>
+      </action>
+   </item>
    <item label="Transmission">
       <action name="Execute">
         <execute>transmission-gtk</execute>
@@ -104,7 +110,7 @@
   <separator />
   <menu id="client-list-menu" />
   <separator />
-  <menu id="config" label="Configurações">
+  <menu id="config" label="Configurations">
     <item label="Unity Control Center">
       <action name="Execute">
 	<execute>unity-control-center</execute>
