@@ -346,7 +346,7 @@
     <!-- lock screen whe Windows + l is pressed -->
     <keybind key="W-l">
       <action name="Execute">
-        <menu>gnome-screensaver-command -l</menu>
+        <command>gnome-screensaver-command -l</command>
       </action>
     </keybind>
   </keyboard>
