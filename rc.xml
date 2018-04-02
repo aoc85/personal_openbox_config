@@ -343,6 +343,12 @@
         <menu>root-menu</menu>
       </action>
     </keybind>
+    <!-- lock screen whe Windows + l is pressed -->
+    <keybind key="W-l">
+      <action name="Execute">
+        <menu>gnome-screensaver-command -l</menu>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
