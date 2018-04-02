@@ -349,6 +349,12 @@
         <command>gnome-screensaver-command -l</command>
       </action>
     </keybind>
+     <keybind key="W-t">
+      <action name="Execute">
+        <command>terminator</command>
+      </action>
+    </keybind>
+
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
