@@ -58,7 +58,7 @@
     </item>
    <item label="File Explorer">
       <action name="Execute">
-        <execute>nautilus</execute>
+        <execute>thunar</execute>
       </action>
     </item>
    <item label="Time Doctor Pro">
