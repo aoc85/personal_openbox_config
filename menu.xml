@@ -71,6 +71,11 @@
         <execute>transmission-gtk</execute>
       </action>
     </item>
+   <item label="Lxapperance">
+      <action name="Execute">
+        <execute>lxappearance</execute>
+      </action>
+    </item>
   </menu>
   <menu id="LibreOffice" label="LibreOffice">
     <item label="Calc">
