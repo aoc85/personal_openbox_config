@@ -354,7 +354,11 @@
         <command>terminator</command>
       </action>
     </keybind>
-
+    <keybind key="W-w">
+       <action name="Execute">
+         <command>google-chrome</command>
+       </action>
+     </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
